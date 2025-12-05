@@ -1,0 +1,17 @@
+.Welcome {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    width: 400px;
+    height: 200px;;
+    border: 7px solid black;
+    border-radius: 15px;
+    position: relative;
+    background-image: url("/Assets/8223915.jpg");
+    background-position: center;
+    top: 470px;
+    font-size: 80px;
+    font-family: "Heroes", sans-serif;
+}

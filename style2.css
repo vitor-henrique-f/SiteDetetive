@@ -5,15 +5,16 @@
 }
 
 body {
-    background-image: url("/Assets/22516503-899e-4f9e-88cd-4c00ad91d18d.jpg");
+    background-image: url("/Assets/4844928.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .Sobre {
+    color: white;
     display: flex;
     justify-content: center;
-    background-image: url(Assets/comic_background_5.jpg);
+    background-image: url(Assets/4814395.jpg);
     background-size: cover;
     width: 700px;
     height: 400px;
@@ -53,7 +54,7 @@ body {
 }
 
 .Aimpacto {
-    background-image: url(Assets/4840164.jpg);
+    background-image: url(Assets/4826101.jpg);
     background-size:cover;
     width: 200px;
     height: 120px;
@@ -79,7 +80,9 @@ body {
 }
 
 .Fluxograma {
-    background-color: aqua;
+    background-image: url(Assets/bd567a7e-7b11-4c53-8a77-8f8f115edc80.jpg);
+    background-size: cover;
+    color: black;
     width: 200px;
     height: 120px;
     display: flex;
@@ -97,7 +100,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "heroes";
     font-size: 40px;
 }
@@ -108,5 +111,5 @@ a:hover {
 }
 
 .Aimpacto:hover {
-    box-shadow: 20px 20px 40px rgb(82, 0, 82);
+    box-shadow: 20px 20px 40px darkblue;
 }
