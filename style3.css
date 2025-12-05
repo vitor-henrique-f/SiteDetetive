@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Aimpacto {
+    text-align: center;
+    background-image: url(Assets/3919675.jpg);
+    background-size: cover;
+    width: 720px;
+    height: 1462px;
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -25%);
+    border: 5px solid black;
+    color: lightyellow;
+    border-radius: 15px;
+    box-shadow: 20px 20px 60px black;
+}
+
+.Timpacto {
+    font-family: "Heroes";
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.Pimpacto {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 70px;
+    margin-top:35px;
+    font-family: "Heroes";;
+}
+
+body {
+    background-image: url(Assets/4904136.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "heroes";
+    font-size: 40px;
+}
+
+a:hover {
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.Sobre:hover {
+    box-shadow: 20px 20px 40px gold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1625px;
+    gap: 160px;
+}
+
+.Sobre {
+    background-image: url(Assets/4830040.jpg);
+    background-size:cover;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.Mdigital {
+    background-color: aqua;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-style: none;
+    border-radius: 15px;
+
+}
+
+.Fluxograma {
+    background-color: aqua;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.espaçamento {
+    position: relative;
+    top: 1703px;
+    background-color: transparent;
+    font-size: 1px;
+}
+
+@font-face {
+    src: url("/Assets/Heroes.otf");
+    font-family: "Heroes";
+}
