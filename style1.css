@@ -5,8 +5,6 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     background-image: url("/Assets/669.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 163px;
+    left: 497px;
     top: 70px;
     background-image: url("/Assets/2207_w018_n002_1080a_p30_1080.jpg");
     background-size: cover;
@@ -28,7 +26,7 @@ body {
     font-family: "Heroes", sans-serif;
     border: 7px solid black;
     border-radius: 15px;
-    box-shadow: 20px 20px 50px darkred;
+    box-shadow: 10px 10px 50px rgb(53, 0, 0);
 }
 
 .Welcome {
@@ -38,25 +36,57 @@ body {
     align-items: center;
     text-decoration: none;
     width: 350px;
-    height: 170px;;
+    height: 170px;
     border: 7px solid black;
     border-radius: 15px;
     position: relative;
     background-image: url("/Assets/8223915.jpg");
     background-size: cover;
-    top: 515px;
-    right: 305px;
+    top: 510px;
+    left: 511px;
     font-size: 80px;
     font-family: "Heroes", sans-serif;
+    box-shadow: rgb(0, 0, 71) 10px 10px 50px;
+}
+
+.logo {
+    position: relative;
+    left: 171px;
+    bottom: 244px;
+    width: 160px;
+    height: 140px;
+    border: solid black 6px;
+    border-radius: 25px;
+    background-image: url(Assets/Logo\ detective.png);
+    background-position: top -62px center;
+    background-size: 200px;
+    background-color: white;
+    box-shadow: rgb(46, 0, 0) 10px 10px 50px;
+}
+
+.github {
+    width: 160px;
+    position: relative;
+    top: 215px;
+    height: 140px;
+    left: 930px;
+    border: solid black 6px;
+    border-radius: 25px;
+    box-shadow: rgb(46, 0, 0) 10px 10px 50px;
+    background-image: url(Assets/github_logo_icon_229278.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
 }
 
 a:hover {
-    box-shadow: 35px 35px 55px rgb(0, 0, 0);
+    border: solid white 7px;
     transition: 0.6s;
     cursor: pointer;
 }
 
 @font-face {
-       src: url("/Assets/Heroes.otf");
-         font-family: "Heroes";
+    src: url("/Assets/Heroes.otf");
+    font-family: "Heroes";
 }
