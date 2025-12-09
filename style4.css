@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/Assets/930486631279.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Fluxograma {
+  border: none;
+  border-radius: 7px; 
+  position: relative;
+  left: 985px; 
+  box-shadow: 10px 10px 50px rgb(255, 255, 255);
+}
+
+.Divfluxo {
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    bottom: 195px;
+    left: 220px;
+    font-family: Heroes;
+    border: solid black 7px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 60px rgb(255, 255, 255);
+    background-image: url(Assets/74762c2f-6a59-4d34-b4e5-e784226618e9.jpg);
+    background-size: cover;
+}
+
+.Pdiv {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px;
+    position: relative;
+    top: 35px;
+    left: 12px;
+}
+
+.Tdiv {
+    font-size: 55px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+
+}
+
+@font-face {
+    src: url("/Assets/Heroes.otf");
+    font-family: "Heroes";
+}

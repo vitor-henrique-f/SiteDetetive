@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 497px;
+    left: 380px;
     top: 70px;
     background-image: url("/Assets/2207_w018_n002_1080a_p30_1080.jpg");
     background-size: cover;
@@ -42,7 +42,7 @@ body {
     position: relative;
     background-image: url("/Assets/8223915.jpg");
     background-size: cover;
-    top: 510px;
+    top: 385px;
     left: 511px;
     font-size: 80px;
     font-family: "Heroes", sans-serif;
@@ -51,7 +51,7 @@ body {
 
 .logo {
     position: relative;
-    left: 171px;
+    left: 130px;
     bottom: 244px;
     width: 160px;
     height: 140px;
@@ -64,20 +64,20 @@ body {
     box-shadow: rgb(46, 0, 0) 10px 10px 50px;
 }
 
-.github {
-    width: 160px;
+.Github {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    height: 110px;
+    width: 110px;
     position: relative;
-    top: 215px;
-    height: 140px;
-    left: 930px;
-    border: solid black 6px;
-    border-radius: 25px;
-    box-shadow: rgb(46, 0, 0) 10px 10px 50px;
+    top: 107px;
+    left: 920px;
+    border: solid black 5px;
+    border-radius: 15px;
     background-image: url(Assets/github_logo_icon_229278.png);
     background-size: 120px;
-    background-repeat: no-repeat;
     background-position: center;
-    background-color: white;
+    background-repeat: no-repeat;
 }
 
 a:hover {

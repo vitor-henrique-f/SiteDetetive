@@ -93,7 +93,6 @@ a:hover {
 }
 
 .Fluxograma {
-    background-color: aqua;
     width: 200px;
     height: 120px;
     display: flex;
@@ -102,6 +101,12 @@ a:hover {
     border: solid black;
     border-style: none;
     border-radius: 15px;
+    background-image: url(Assets/bd567a7e-7b11-4c53-8a77-8f8f115edc80.jpg);
+    background-size: cover;
+}
+
+.Fluxograma:hover {
+    box-shadow: 20px 20px 40px rgb(255, 116, 116);
 }
 
 .espaçamento {

@@ -113,3 +113,7 @@ a:hover {
 .Aimpacto:hover {
     box-shadow: 20px 20px 40px darkblue;
 }
+
+.Fluxograma:hover {
+    box-shadow: 20px 20px 40px rgb(255, 116, 116);
+}
